@@ -177,7 +177,7 @@ Minh họa:
 ![Image](/screenshots/hinh7.png)
 
 4.Pagination
-- Tương tự như breadcrumb, ta cũng dàng phân trang bằng cách dùng thẻ ul và l>, thêm class 'pagination' vào thẻ ul. Các class 'active' hoặc 'disable' thêm vào thẻ li để báo người dùng biết đang ở trang nào.
+- Tương tự như breadcrumb, ta cũng dàng phân trang bằng cách dùng thẻ ul và li, thêm class 'pagination' vào thẻ ul. Các class 'active' hoặc 'disable' thêm vào thẻ li để báo người dùng biết đang ở trang nào.
 
 - Ví dụ:
 
@@ -251,7 +251,7 @@ Minh họa:
 6.Form
 - Với bootstrap chúng ta thật dễ dàng khi tạo form, không phải mất thời gian để căn chỉnh, tất cả đều được tự động khi ta thêm class.
 - Có 3 kiểu form cơ bản chúng ta thường dùng là:
-  + Vertical form: Đây là kiểu form mặc định(form dọc), chúng ta không cần phải thêm class vào thẻ <form>. Bên trong <form></form> là class 'form-group', các thẻ input thì thêm class 'form-control'.
+  + Vertical form: Đây là kiểu form mặc định(form dọc), chúng ta không cần phải thêm class vào thẻ form. Bên trong form là class 'form-group', các thẻ input thì thêm class 'form-control'.
 
 - Ví dụ:
 
@@ -282,7 +282,7 @@ Nếu không thêm class của Bootstrap:
 
 ![Image](/screenshots/hinh11.png)
 
-  + Inline form: Là kiểu form tất cả nằm trên 1 dòng, thích hợp với màn hình có kích thước nhỏ. Với kiểu form này, ta chỉ cần thêm class 'form-inline' vào thẻ <form>.
+  + Inline form: Là kiểu form tất cả nằm trên 1 dòng, thích hợp với màn hình có kích thước nhỏ. Với kiểu form này, ta chỉ cần thêm class 'form-inline' vào thẻ form.
 
 - Ví dụ:
 
