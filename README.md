@@ -25,7 +25,7 @@ rails generate bootstrap:install static
 
 III. Một số class cơ bản của Bootstrap và cách sử dụng
 
-1. Grid System
+1.Grid System
 
 - Là cách Bootstrap phân chia bố cục dạng lưới với các ô với có các kích thước khác nhau để tạo nên giao diện tương thích. Kích thước của các ô này sẽ tự động co giãn cho phù hợp với kích thước màn hình mà thiết bị đang xem trang web.
 - Grid System chia nhỏ được nhiều nhất là 12 ô.
@@ -76,7 +76,7 @@ Hiển thị trên máy tính:
 
 ![Image](/screenshots/hinh3.png)
 
-2. Tạo table
+2.Tạo table
 
 - Để tạo 1 bảng đơn giản, Bootstrap cung cấp cho chúng ta các class để thêm vào thẻ table của html:
   + table: mặc định (Bắt buộc phải khai báo)
@@ -153,7 +153,7 @@ Minh họa:
 
 ![Image](/screenshots/hinh6.png)
 
-3. Breadcrumb
+3.Breadcrumb
 
 - Breadcrumb là 1 chuỗi các đường link phân cấp giúp người dùng có thể biết được mình đang ở trang nào và từ đó có thể di chuyển thuận lợi từ trang này trang khác trong 1 website.
 - Để tạo một breadcrumb đơn giản, dễ nhìn bằng bootstrap thì chúng ta dùng  cặp thẻ html ul và li, thêm vào thẻ ul class 'breadcrumb', có thể thêm class 'active' vào li chỉ link hiện tại.
@@ -176,7 +176,7 @@ Minh họa:
 
 ![Image](/screenshots/hinh7.png)
 
-4. Pagination
+4.Pagination
 - Tương tự như breadcrumb, ta cũng dàng phân trang bằng cách dùng thẻ ul và l>, thêm class 'pagination' vào thẻ ul. Các class 'active' hoặc 'disable' thêm vào thẻ li để báo người dùng biết đang ở trang nào.
 
 - Ví dụ:
@@ -202,7 +202,7 @@ Minh họa:
 
 ![Image](/screenshots/hinh8.png)
 
-5. Buttons
+5.Buttons
 
 - Tùy mục đích sử dụng, Bootstrap cung cấp các class khác nhau cho việc tao css cho buttons:
   + btn: mặc định (Bắt buộc phải khai báo)
@@ -248,7 +248,7 @@ Minh họa:
 
 ![Image](/screenshots/hinh9.png)
 
-6. Form
+6.Form
 - Với bootstrap chúng ta thật dễ dàng khi tạo form, không phải mất thời gian để căn chỉnh, tất cả đều được tự động khi ta thêm class.
 - Có 3 kiểu form cơ bản chúng ta thường dùng là:
 + Vertical form: Đây là kiểu form mặc định(form dọc), chúng ta không cần phải thêm class vào thẻ <form>. Bên trong <form></form> là class 'form-group', các thẻ input thì thêm class 'form-control'.
