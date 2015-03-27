@@ -34,7 +34,7 @@ Minh họa kích thước:
 
 ![Image](/screenshots/hinh1.png)
 
-- Grid System chia ra 4 class phù hợp với tưng kích thước màn hình:
+- Grid System chia ra 4 class phù hợp với từng kích thước màn hình:
 
   + xs (cho điện thoại)
   + sm (cho máy tính bảng)
@@ -49,13 +49,13 @@ col-xx-y
 ```
 
 Trong đó:
-+ xx là kích thước của man hình nào: xs, sm, md hoặc lg
-+ y là độ rộng tương ứng với kích thước của loại màn hình trên, nhận giá trị tự 1 đến 12
+  + xx là kích thước của màn hình nào: xs, sm, md hoặc lg
+  + y là độ rộng tương ứng với kích thước của loại màn hình trên, nhận giá trị từ 1 đến 12
 
 - Chú ý bắt buộc nữa là bọc ngoài các class 'col' là class 'row', các 'row' phải nằm bên trong 1 class 'container' hoặc 'container-fluid'.
 
 
--Ví dụ:
+- Ví dụ:
 
 ```html
 <div class="container">
@@ -78,21 +78,21 @@ Hiển thị trên máy tính:
 
 2. Tạo table
 
-- Để tạo 1 bảng đơn giản, Bootstrap cung cấp cho chúng ta các class để thêm vào thẻ <table> của html:
- + table: mặc định (Bắt buộc phải khai báo)
- + table-striped
- + table-bordered
- + table-hover
- + table-condensed
+- Để tạo 1 bảng đơn giản, Bootstrap cung cấp cho chúng ta các class để thêm vào thẻ table của html:
+  + table: mặc định (Bắt buộc phải khai báo)
+  + table-striped
+  + table-bordered
+  + table-hover
+  + table-condensed
 
-- Để thêm css cho các ô dòng cột, bootstrap có một số class cho thẻ <th>, <td>, <tr>:
- + active: css cho các dòng của bảng hay ô trong bảng mang nghĩa còn hoạt động
- + success: css cho một hành động thành công, tích cực
- + info: css cho một thông tin
- + warning: css cho một cảnh báo, cần chú ý
- + danger: css hành động nguy hiểm hoặc
+- Để thêm css cho các ô dòng cột, bootstrap có một số class cho thẻ th, td, tr:
+  + active: css cho các dòng của bảng hay ô trong bảng mang nghĩa còn hoạt động, màu tím nhạt
+  + success: css cho một hành động thành công, tích cực, màu xanh lá cây nhạt
+  + info: css cho một thông tin. màu xanh dương nhạt
+  + warning: css cho một cảnh báo, cần chú ý, màu vàng nhạt
+  + danger: css hành động nguy hiểm, màu hồng nhạt
 
--Ví dụ:
+- Ví dụ:
 
 ```html
 <div class="container">
@@ -156,9 +156,9 @@ Minh họa:
 3. Breadcrumb
 
 - Breadcrumb là 1 chuỗi các đường link phân cấp giúp người dùng có thể biết được mình đang ở trang nào và từ đó có thể di chuyển thuận lợi từ trang này trang khác trong 1 website.
-- Để tạo một breadcrumb đơn giản, dễ nhìn bằng bootstrap thì chúng ta dùng  cặp thẻ html <ul> và <li>, thêm vào thẻ <ul> class 'breadcrumb', có thể thêm class 'active' vào <li> chỉ link hiện tại.
+- Để tạo một breadcrumb đơn giản, dễ nhìn bằng bootstrap thì chúng ta dùng  cặp thẻ html ul và li, thêm vào thẻ ul class 'breadcrumb', có thể thêm class 'active' vào li chỉ link hiện tại.
 
--Ví dụ:
+- Ví dụ:
 
 ```html
 <div class="container">
@@ -177,9 +177,9 @@ Minh họa:
 ![Image](/screenshots/hinh7.png)
 
 4. Pagination
-- Tương tự như breadcrumb, ta cũng dàng phân trang bằng cách dùng thẻ <ul> và <li>, thêm class 'pagination' vào thẻ <ul>. Các class 'active' hoặc 'disable' thêm vào thẻ <li> để báo người dùng biết đang ở trang nào.
+- Tương tự như breadcrumb, ta cũng dàng phân trang bằng cách dùng thẻ ul và l>, thêm class 'pagination' vào thẻ ul. Các class 'active' hoặc 'disable' thêm vào thẻ li để báo người dùng biết đang ở trang nào.
 
--Ví dụ:
+- Ví dụ:
 
 ```html
 <div class="container">
@@ -197,6 +197,7 @@ Minh họa:
   </div>
 </div>
 ```
+
 Minh họa:
 
 ![Image](/screenshots/hinh8.png)
@@ -204,20 +205,20 @@ Minh họa:
 5. Buttons
 
 - Tùy mục đích sử dụng, Bootstrap cung cấp các class khác nhau cho việc tao css cho buttons:
- + btn: mặc định (Bắt buộc phải khai báo)
- + btn-primary:  tạo ra button màu xanh dương đậm
- + btn-success:  tạo ra button màu xanh
- + btn-info: tạo ra button màu xanh dương
- + btn-warning:  tạo ra button màu cam
- + btn-danger: tạo ra button màu đỏ
- + btn-link: tạo ra button có dạng cick liên kết
- + btn-lg:  tạo ra button với cỡ lớn
- + btn-sm: tạo ra button với cỡ nhỏ
- + btn-xs: tạo ra button với cỡ rất nhỏ
- + active:
- + disabled:
+  + btn: mặc định (Bắt buộc phải khai báo)
+  + btn-primary:  tạo ra button màu xanh dương đậm
+  + btn-success:  tạo ra button màu xanh lá cây
+  + btn-info: tạo ra button màu xanh dương
+  + btn-warning:  tạo ra button màu cam
+  + btn-danger: tạo ra button màu đỏ
+  + btn-link: tạo ra button có dạng cick liên kết
+  + btn-lg:  tạo ra button với cỡ lớn
+  + btn-sm: tạo ra button với cỡ nhỏ
+  + btn-xs: tạo ra button với cỡ rất nhỏ
+  + active:
+  + disabled:
 
- -Ví dụ:
+- Ví dụ:
 
 ```html
 <div class="container">
@@ -242,6 +243,7 @@ Minh họa:
   </div><br>
 </div>
 ```
+
 Minh họa:
 
 ![Image](/screenshots/hinh9.png)
@@ -251,7 +253,7 @@ Minh họa:
 - Có 3 kiểu form cơ bản chúng ta thường dùng là:
 + Vertical form: Đây là kiểu form mặc định(form dọc), chúng ta không cần phải thêm class vào thẻ <form>. Bên trong <form></form> là class 'form-group', các thẻ input thì thêm class 'form-control'.
 
--Ví dụ:
+- Ví dụ:
 
 ```html
 <div class="container">
@@ -271,6 +273,7 @@ Minh họa:
   </div>
 </div>
 ```
+
 Minh họa:
 
 ![Image](/screenshots/hinh10.png)
@@ -282,7 +285,7 @@ Nếu không thêm class của Bootstrap:
 + Inline form
 - Là kiểu form tất cả nằm trên 1 dòng, thích hợp với màn hình có kích thước nhỏ. Với kiểu form này, ta chỉ cần thêm class 'form-inline' vào thẻ <form>.
 
--Ví dụ:
+- Ví dụ:
 
 ```html
 <div class="container">
@@ -302,6 +305,7 @@ Nếu không thêm class của Bootstrap:
   </div>
 </div>
 ```
+
 Minh họa:
 
 ![Image](/screenshots/hinh12.png)
@@ -312,7 +316,7 @@ Minh họa:
 + control-label: thêm class này vào thẻ <label> mới có thể thêm class col-xx-y(căn chỉnh kích thước bằng Grid System) vào được
 + col-xs-offset-2: căn lề trái
 
--Ví dụ:
+- Ví dụ:
 
 ```html
 <div class="container">
@@ -339,6 +343,7 @@ Minh họa:
     </form>
   </div>
 </div>
+
 ```
 Minh họa:
 
