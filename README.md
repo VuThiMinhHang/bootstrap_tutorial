@@ -70,11 +70,11 @@ Trong đó:
 
 Hiển thị trên điện thoại:
 
-![Image](/screenshots/hình2.png)
+![Image](/screenshots/hinh2.png)
 
 Hiển thị trên máy tính:
 
-![Image](/screenshots/hỉnh3.png)
+![Image](/screenshots/hinh3.png)
 
 2. Tạo table
 
@@ -147,11 +147,11 @@ Minh họa:
 
 + Có class 'table', không có class 'table-bordered':
 
-![Image](/screenshots/hình5.png)
+![Image](/screenshots/hinh5.png)
 
 + Có class 'table', 'table-bordered':
 
-![Image](/screenshots/hình6.png)
+![Image](/screenshots/hinh6.png)
 
 3. Breadcrumb
 
